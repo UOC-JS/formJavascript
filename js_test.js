@@ -1,6 +1,6 @@
 (function () {
 
-console.log("Custom 123FormBuilder script loaded");
+console.log("Custom 123FormBuilder script loaded - Message");
   
   document.addEventListener("DOMContentLoaded", function () {
     const sectorField = document.querySelector('select[name="messageTest"]');
@@ -34,6 +34,9 @@ console.log("Custom 123FormBuilder script loaded");
 })();
 
 (function () {
+  
+console.log("Custom 123FormBuilder script loaded - Variable");
+  
   document.addEventListener("DOMContentLoaded", function () {
     const params = new URLSearchParams(window.location.search);
     const los = params.get("los");
