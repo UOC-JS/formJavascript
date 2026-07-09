@@ -31,9 +31,6 @@ console.log("Custom 123FormBuilder script loaded - Message");
       }
     });
   });
-})();
-
-(function () {
   
 console.log("Custom 123FormBuilder script loaded - Variable");
   
