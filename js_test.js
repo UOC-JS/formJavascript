@@ -10,7 +10,7 @@ console.log("Custom 123FormBuilder script loaded - Variable");
 
     if (!los) return;
 
-    const losField = document.querySelector('select[name="Level of Study"]');
+    const losField = document.querySelector('[data-role="control"][data-id="3553969"] select');
 
     if (losField) {
       losField.value = los;
