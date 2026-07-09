@@ -1,4 +1,7 @@
 (function () {
+
+  console.log("Custom 123FormBuilder script loaded - URL variable test");
+  
   function normaliseText(text) {
     return text
       .toLowerCase()
